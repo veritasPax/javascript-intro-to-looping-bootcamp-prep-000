@@ -15,14 +15,14 @@ function forLoop(array) {
 }
 
 function whileLoop(n) {
-  while (n >= 0) {
+  while (n > 0) {
     console.log(n)
     n -= 1
   }
   return 'done'
 }
 
-function doWhile(array) {
+function doWhileLoop(array) {
   do {
     array.pop()
   } while (array.length > 0 && maybeTrue())
